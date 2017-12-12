@@ -1,0 +1,54 @@
+baseURL = "http://valientewellness.com/"
+languageCode = "en-us"
+title = "Valiente Wellness"
+
+theme = "hugo-universal-theme"
+style= "violet)"
+disqusShortname = "devcows"
+googleAnalytics = ""
+
+[params.carousel]
+    enable = true
+
+[params.features]
+    enable = true
+
+[params.testimonials]
+    enable = true
+    title = "Testimonials"
+    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+
+[params.topbar]
+    enable = true
+    text = "<p>Contact us at hello@valientewelness.com.</p>"
+
+[[menu.main]]
+	name = "Home"
+	url = "/"
+	weight = 1
+
+[[menu.main]]
+	name = "About"
+	url = "/about/"
+	weight = 2
+
+[[menu.main]]
+	name = "Services"
+	url = "/services/"
+	weight = 3
+
+[[menu.main]]
+    name = "Contact"
+    url  = "/contact/"
+    weight = 4
+
+[params]
+    latitude = "-12.043333"
+    longitude = "-77.028333"
+    direction = "Desamparados Station, Distrito de Lima 15001, Peru"
+
+
+[params.widgets]
+    search = true
+    categories = true
+    tags = true
